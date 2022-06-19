@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <p class="h-text">
+            TIMER
+        </p>
+        <div class="nums">
+            <div class="n1 nDiv">
+                <input onClick="this.select();" type="number" class="t-input t-input-1" min="0" max="60" value="00">
+            </div>
+            <p class="c-char">:</p>
+            <div class="n2 nDiv">
+                <input onClick="this.select();" type="number" class="t-input t-input-2" min="0" max="60" value="00">
+            </div>
+            <p class="c-char">:</p>
+            <div class="n3 nDiv">
+                <input onClick="this.select();" type="number" class="t-input t-input-3" min="0" max="60" value="00">
+            </div>
+        </div>
+        <div class="btns">
+            
+            <button class="btns-btns p-btn">START</button>
+            <button class="btns-btns reset-btn">RESET</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
